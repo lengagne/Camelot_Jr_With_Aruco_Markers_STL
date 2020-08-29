@@ -1,0 +1,8 @@
+
+
+This repository allows to create stl files with aruco markers for the game Camelot_JR : https://www.smartgames.eu/fr/jeux-pour-1-joueur/camelot-jr
+
+This can be used in the case of robotics courses.
+
+
+This repository assumes that you have created the aruco markers using : https://github.com/lengagne/aruco_markers_to_stl
