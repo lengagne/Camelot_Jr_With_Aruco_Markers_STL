@@ -6,3 +6,5 @@ This can be used in the case of robotics courses.
 
 
 This repository assumes that you have created the aruco markers using : https://github.com/lengagne/aruco_markers_to_stl
+
+The stl from the markers must be set in the repository aruco_stl
