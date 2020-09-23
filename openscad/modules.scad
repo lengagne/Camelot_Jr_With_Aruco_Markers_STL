@@ -11,7 +11,7 @@ module white( filename, text)
         intersection() 
         {    
             cube([35,35,5],center=true); 
-            translate([1.5,0,2.6])   linear_extrude(5) scale([0.14,0.14,-1])surface(file = filename, center = true); 
+            translate([1.5,0,2.6])   scale([0.14,0.14,-1])surface(file = filename, center = true); 
         } 
     } 
 
