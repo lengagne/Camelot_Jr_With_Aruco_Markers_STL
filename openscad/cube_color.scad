@@ -4,7 +4,7 @@ difference()
 {
     color([1,0,0])
     {
-            import("../empty_STL/cube.stl");
+        cube([35,35,35],center=true);
     }
 
     union() color([0,1,0])

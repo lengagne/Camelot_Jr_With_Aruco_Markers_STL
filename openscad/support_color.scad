@@ -3,7 +3,7 @@ include <modules.scad>
 offset = 35;
 bord = 97.5;
 
-//difference()
+difference()
 {
     color([1,0,0])
     {
