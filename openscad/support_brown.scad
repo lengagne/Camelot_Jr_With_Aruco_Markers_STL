@@ -16,11 +16,11 @@ difference()
 
     union() color([0,1,0])
     {
-        translate([bord,45,-20])              rotate([0,180,0]) shape();    
-        translate([bord-offset,45,-20])       rotate([0,180,0]) shape();    
-        translate([bord-2*offset,45,-20])     rotate([0,180,0]) shape();    
-        translate([bord-3*offset,45,-20])     rotate([0,180,0]) shape();    
-        translate([bord-4*offset,45,-20])     rotate([0,180,0]) shape();    
-        translate([bord-5*offset,45,-20])     rotate([0,180,0]) shape();    
+        translate([bord,40,-20])              rotate([0,180,0]) shape();    
+        translate([bord-offset,40,-20])       rotate([0,180,0]) shape();    
+        translate([bord-2*offset,40,-20])     rotate([0,180,0]) shape();    
+        translate([bord-3*offset,40,-20])     rotate([0,180,0]) shape();    
+        translate([bord-4*offset,40,-20])     rotate([0,180,0]) shape();    
+        translate([bord-5*offset,40,-20])     rotate([0,180,0]) shape();    
     }
 }
