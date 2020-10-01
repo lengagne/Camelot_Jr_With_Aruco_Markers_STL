@@ -1,6 +1,6 @@
 include <modules.scad>
 //
-difference()
+translate([0,0,-3]) difference()
 {
     color([1,0,0])
     {
