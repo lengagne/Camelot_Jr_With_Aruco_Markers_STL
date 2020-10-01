@@ -4,7 +4,7 @@ translate([0,0,-3]) difference()
 {
     color([1,0,0])
     {
-            import("../empty_STL/tower.stl");
+        tower();
     }
     translate([0,0,3])
     union() color([0,1,0])

@@ -103,3 +103,31 @@ module support()
         translate([-78,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
     }
 }
+
+module tower()
+{
+    difference()
+    {
+        union()
+        {
+            translate([0,0,3-35/2])cube([35,35,70],center=true);
+            translate([0,0,20])    cylinder(r=10,h=5,$fn=50);
+        }
+        translate([0,0,-50])    cylinder(r=10,h=10,$fn=50);
+    }
+}
+
+module character()
+{
+    union()
+    {
+        translate([0,0,10])    cylinder(r1=13,r2=8,h=25,$fn=50);    
+        translate([0,0,37.5])    
+        {
+            cylinder(r1=12,r2=1,h=5,$fn=50);
+            scale([1,1,-1]) cylinder(r1=12,r2=1,h=5,$fn=50);
+        }
+        
+        translate([0,0,50]) sphere(r=12,$fn=50);
+    }    
+}
