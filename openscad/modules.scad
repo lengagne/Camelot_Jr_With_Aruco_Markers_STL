@@ -67,3 +67,39 @@ module blue_stairs()
 
         }
 }
+
+module green_stairs()
+{
+        union()
+        {
+            translate([0,0,1+35/2])cube([35,35,70],center=true);
+            translate([0,0,-20.5])cube([35,35,9],center=true);            
+            translate([-4.25,0,-29.5])cube([35-8.5,35,9],center=true);            
+            translate([-8.5,0,-29.5-9])cube([35-17,35,9],center=true);            
+            translate([-13,0,-29.5-17.5])cube([35-26,35,9],center=true);            
+
+        }
+}
+
+module support()
+{
+    difference()
+    {
+        translate([10,-1.5,-12])
+        {
+            difference()
+            {
+                cube([211,51.5,22],center=true);
+                translate([0,0,17]) cube([211,40,20],center=true);
+                
+                
+            }
+        }
+        translate([106-8,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+        translate([70.6-8,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+        translate([35.3-8,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+        translate([-8,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+        translate([-43,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+        translate([-78,-2.5,-10])    cylinder(r=11,h=10,$fn=50);
+    }
+}

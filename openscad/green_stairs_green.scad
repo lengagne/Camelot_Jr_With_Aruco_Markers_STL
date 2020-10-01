@@ -2,10 +2,7 @@ include <modules.scad>
 
 difference()
 {
-    scale([1,1,-1]) color([1,0,0])
-    {
-            import("../empty_STL/green_stairs.stl");
-    }
+    green_stairs();
     translate([0,0,0])      union() color([0,1,0])
     {
         rotate([90,0,0])

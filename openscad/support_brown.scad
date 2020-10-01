@@ -9,7 +9,7 @@ difference()
     {
         union()
         {
-            import("../empty_STL/support.stl");
+            support();
             translate([10,15,-23]) cube([215,90,2],center=true);
         }
     }
