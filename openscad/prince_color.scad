@@ -5,7 +5,6 @@ difference()
     color([1,0,0])
     {
              rotate([180,0,0])  cube_appendix();
-//            translate([0,0,10]) import("../empty_STL/character.stl");
             character();
     }
 

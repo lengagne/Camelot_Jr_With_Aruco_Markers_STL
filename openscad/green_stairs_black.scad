@@ -14,7 +14,7 @@ union()
     }
     translate([0,0,35])      union() color([0,1,0])
     {
-        rotate([0,180,0])   translate([0,-5,-14.5])   black("../aruco/Marker70.png","ID=70");    
+        rotate([0,180,0])   translate([0,-5,-16])   black("../aruco/Marker70.png","ID=70");    
         rotate([90,0,0])
         {
             translate([0,-4,-15])       black("../aruco/Marker75.png","ID=75");    
