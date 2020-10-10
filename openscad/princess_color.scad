@@ -4,7 +4,7 @@ difference()
 {
     color([1,0,0])
     {
-            cube_appendix();
+           rotate([180,0,0]) cube_appendix();
             character();
     }
 
