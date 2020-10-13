@@ -51,7 +51,7 @@ module cube_appendix()
                  translate([0,0,7]) cylinder(r=10,h=30,center=true);
             }
         }
-        translate([0,0,-24]) cylinder(r=10,h=30,center=true);
+        translate([0,0,-24]) cylinder(r=11,h=30,center=true);
     }
 }
 
@@ -113,7 +113,7 @@ module tower()
             translate([0,0,3-35/2])cube([35,35,70],center=true);
             translate([0,0,20])    cylinder(r=10,h=5,$fn=50);
         }
-        translate([0,0,-50])    cylinder(r=10,h=10,$fn=50);
+        translate([0,0,-50])    cylinder(r=11,h=10,$fn=50);
     }
 }
 

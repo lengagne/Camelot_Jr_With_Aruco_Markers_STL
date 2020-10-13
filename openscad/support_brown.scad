@@ -10,17 +10,17 @@ difference()
         union()
         {
             support();
-            translate([10,15,-23]) cube([215,90,2],center=true);
+            translate([10,15,-22]) cube([215,90,4],center=true);
         }
     }
 
     union() color([0,1,0])
     {
-        translate([bord,40,-20])              rotate([0,180,0]) shape();    
-        translate([bord-offset,40,-20])       rotate([0,180,0]) shape();    
-        translate([bord-2*offset,40,-20])     rotate([0,180,0]) shape();    
-        translate([bord-3*offset,40,-20])     rotate([0,180,0]) shape();    
-        translate([bord-4*offset,40,-20])     rotate([0,180,0]) shape();    
-        translate([bord-5*offset,40,-20])     rotate([0,180,0]) shape();    
+        translate([bord,45,-20])              rotate([0,180,180]) shape();    
+        translate([bord-offset,45,-20])       rotate([0,180,180]) shape();    
+        translate([bord-2*offset,45,-20])     rotate([0,180,180]) shape();    
+        translate([bord-3*offset,45,-20])     rotate([0,180,180]) shape();    
+        translate([bord-4*offset,45,-20])     rotate([0,180,180]) shape();    
+        translate([bord-5*offset,45,-20])     rotate([0,180,180]) shape();    
     }
 }
